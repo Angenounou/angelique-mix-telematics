@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/min/uikit.min.css" />
+    <script src="js/min/uikit.min.js"></script>
+    <script src="js/min/uikit-icons.min.js"></script>
+  </head>
+  <body>
+    <!-- Secondary header -->
+    <div class="uk-navbar uk-background-secondary uk-light">
+      <div class="uk-navbar-right uk-text-small">
+        <p class="uk-text-uppercase uk-margin-remove-bottom">
+          Investor Relations
+        </p>
+        <div class="uk-inline uk-width-small">
+          <select class="uk-select uk-text-uppercase" name="country">
+            <option value="AU" selected>🇦🇺 Australia</option>
+            <option value="BR">🇧🇷 Brasil</option>
+            <option value="FR">🇫🇷 France</option>
+            <option value="DE">🇩🇪 Germany</option>
+            <option value="GB">🇬🇧 United Kingdom</option>
+            <option value="US">🇺🇸 United States</option>
+            <option value="RO">🇷🇴 Română</option>
+            <option value="PL">🇵🇱 Poland</option>
+            <option value="ES">🇪🇸 Spain</option>
+            <option value="ME">🌍 Middle East</option>
+            <option value="AE">🌍 الشرق الأوسط</option>
+            <option value="AU">🇦🇺 Australia</option>
+            <option value="LA">🌍 Latin America</option>
+            <option value="ZA">🇿🇦 South Africa</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="uk-navbar-container uk-sticky uk-navbar">
+      <div class="uk-navbar-left">
+        <a href="https://mixtelematics.com" class="uk-navbar-item uk-logo">
+          <img
+            src="https://mixtelematics.com/images/interface/mix-telematics-logo-black.svg"
+            alt="Logo"
+            class="logo"
+          />
+        </a>
+      </div>
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          <li><a href="#">Solutions</a></li>
+          <li class="uk-active"><a href="#">Products</a></li>
+          <li><a href="#">Value Added Services</a></li>
+          <li><a href="#">Industries</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li>
+            <a href="#" uk-search-icon uk-toggle="target: #search-overlay"></a>
+            <div id="search-overlay" uk-offcanvas>
+              <div class="uk-offcanvas-bar">
+                <button
+                  class="uk-offcanvas-close"
+                  type="button"
+                  uk-close
+                ></button>
+                <form class="uk-search uk-search-default">
+                  <input
+                    class="uk-search-input"
+                    type="search"
+                    placeholder="Search..."
+                  />
+                </form>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <section
+      class="uk-cover uk-height-large uk-background-cover uk-flex uk-flex-middle uk-flex-left"
+      style="background-image: url('images/main-image.jpeg')"
+      uk-height-viewport="expand: true"
+    >
+      <div class="uk-container">
+        <div class="uk-grid">
+          <div class="uk-width-1-2">
+            <h1 class="uk-light uk-text-uppercase">Mix Fleet Manager</h1>
+            <p class="uk-text-large uk-light">
+              Optimise your fleet and boost driver safety with a proven
+              telematics solution that works for you.
+            </p>
+            <button
+              class="uk-button uk-button-primary uk-button-small uk-border-rounded"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What can fleet telematics do for your business? -->
+
+    <section class="uk-section uk-dark uk-background-primary">
+      <div class="uk-container">
+        <h2 class="uk-text-center uk-margin-large-bottom uk-text-uppercase">
+          <b>What can fleet telematics</b> do for your business?
+        </h2>
+        <div
+          class="uk-position-relative uk-visible-toggle uk-dark"
+          tabindex="-1"
+          uk-slider="autoplay: true; autoplay-interval: 3000"
+        >
+          <ul class="uk-slider-items">
+            <li>
+              <div
+                class="uk-grid-large uk-flex-middle uk-grid uk-margin-remove-left"
+              >
+                <div class="uk-width-1-2@m">
+                  <img
+                    src="images/what.jpg"
+                    alt=""
+                    class="uk-border-rounded uk-box-shadow-large"
+                  />
+                </div>
+                <div class="uk-width-1-2@m">
+                  <h3 class="uk-text-large uk-margin-small-bottom">
+                    Fleet management technology that provides all the data you
+                    need from a single pane of glass
+                  </h3>
+                  <p class="uk-text-large uk-margin-medium-bottom">
+                    Fleet management solutions offer fleet operators unlimited
+                    access to real-time data about their drivers and vehicles,
+                    with a host of features, tools and reports to maximis return
+                    on investment.
+                  </p>
+                  <ul uk-accordion>
+                    <li>
+                      <a
+                        class="uk-accordion-title uk-text-large uk-text-primary"
+                        href="#"
+                        >Some of which provide you with:</a
+                      >
+                      <div class="uk-accordion-content">
+                        <ul>
+                          <li>Live tracking</li>
+                          <li>Drier safety analysis</li>
+                          <li>Real-time driver feedback</li>
+                          <li>Route planning and management</li>
+                          <li>Fuel use monitoring</li>
+                          <li>Maintenance scheduling</li>
+                          <li>
+                            Data about your entire fleet on an easy to use SaaS
+                            platform
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="uk-grid-large uk-flex-middle uk-grid uk-margin-remove-left"
+              >
+                <div class="uk-width-1-2@m">
+                  <img
+                    src="images/what.jpg"
+                    alt=""
+                    class="uk-border-rounded uk-box-shadow-large"
+                  />
+                </div>
+                <div class="uk-width-1-2@m">
+                  <p class="uk-text-large uk-margin-medium-bottom">
+                    MiX Fleet Manager makes it easy to manage your fleets with
+                    integrated solutions to help you grow fleets and see ROI.
+                    The solution comprises an onboard computer (OBC), which
+                    collects and transmits valuable vehicle and driver data. The
+                    data is securely hosted and accessible on all devices,
+                    providing live notifications that help you better understand
+                    how your fleets are running and take action when needed
+                    most.
+                  </p>
+                  <ul uk-accordion>
+                    <li>
+                      <a
+                        class="uk-accordion-title uk-text-large uk-text-primary"
+                        href="#"
+                        >All the data at your fingertips:</a
+                      >
+                      <div class="uk-accordion-content">
+                        <ul>
+                          <li>
+                            Fleet tracking enables you to send the right driver
+                            to the right job, restrict unauthorised movements,
+                            deliver higher levels of customer service, reduce
+                            cargo theft and protect drivers in high-risk, or
+                            remote areas.
+                          </li>
+                          <li>
+                            Monitor risky and inefficient driving behaviour such
+                            as speeding, harsh acceleration and braking,
+                            excessive idling and more. Assign safety scores to
+                            your drivers to determine which of them need to
+                            improve their driving behaviour and provide them
+                            with relevant training.
+                          </li>
+                          <li>
+                            Direct, constant communication with drivers is
+                            important as they are the heartbeat of a fleet.
+                            Providing visual and audible alerts to drivers about
+                            their behaviour on the road gives you the power to
+                            intervene.
+                          </li>
+                          <li>
+                            Monitor the exact routes your fleet is taking and
+                            analyse exactly where journeys can be optimised.
+                            Group jobs in the same location together to minimise
+                            drive time and, plan ahead.
+                          </li>
+                          <li>
+                            MiX Fleet Manager monitors average, per-day and
+                            per-vehicle fuel consumption. It analyses exactly
+                            which behaviours are increasing fuel usage, such as
+                            idling time. On top of this, you can calculate your
+                            fleet’s CO2 emissions.
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                class="uk-grid-large uk-flex-middle uk-grid uk-margin-remove-left"
+              >
+                <div class="uk-width-1-2@m">
+                  <img
+                    src="images/what.jpg"
+                    alt=""
+                    class="uk-border-rounded uk-box-shadow-large"
+                  />
+                </div>
+                <div class="uk-width-1-2@m uk-margin-medium">
+                  <p class="uk-text-large uk-margin-medium-bottom">
+                    Customers worldwide rely on MiX Fleet Manager to put driver
+                    safety, fleet efficiency and sustainability at the forefront
+                    of the fleet operations. To date they continue to save,
+                    learn and implement a number of key interventions that have
+                    helped them realise.
+                  </p>
+                  <ul uk-accordion>
+                    <li>
+                      <a
+                        class="uk-accordion-title uk-text-large uk-text-primary"
+                        href="#"
+                        >Some of the results demonstrated below:</a
+                      >
+                      <div class="uk-accordion-content">
+                        <ul>
+                          <li>5:1 return on investment</li>
+                          <li>
+                            10:1 return on investment if you include video
+                            telematics in your solution portfolio
+                          </li>
+                          <li>8% cost-saving on fuel</li>
+                          <li>10% reduction in maintenance costs</li>
+                          <li>30% reduction in collisions</li>
+                          <li>15% insurance reduction</li>
+                          <li>10% productivity improvement</li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <a
+            class="uk-position-center-left uk-position-large"
+            href="#"
+            uk-slidenav-previous
+            uk-slider-item="previous"
+          ></a>
+          <a
+            class="uk-position-center-right uk-position-large"
+            href="#"
+            uk-slidenav-next
+            uk-slider-item="next"
+          ></a>
+
+          <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- What our Customers have to say? -->
+
+    <section class="uk-section">
+      <div class="uk-container">
+        <h2 class="uk-text-center uk-margin-large-bottom uk-text-uppercase">
+          <b>What our Customers</b> have to say
+        </h2>
+        <div class="uk-grid-large uk-flex-middle uk-grid uk-margin-remove-left">
+          <div class="uk-width-1-2@m uk-text-large">
+            <p class="uk-text-italics uk-text-primary">
+              "Our crash rates and associated repair and maintenance costs have
+              dropped considerably, ensuring a safer workplace."
+            </p>
+            <p class="uk-text-uppercase">- Michael Borg, Managing Director</p>
+          </div>
+          <div class="uk-width-1-2@m">
+            <img
+              src="images/Borg-logo.png"
+              alt=""
+              class="uk-width-large uk-margin-auto-left"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How mix fleet manager improves safety, efficiency, driver fatigue and more -->
+
+    <section class="uk-section uk-background-secondary uk-light">
+      <div class="uk-container">
+        <h2 class="uk-text-center uk-margin-large-bottom uk-text-uppercase">
+          How mix fleet manager improves safety, efficiency, driver fatigue and
+          more
+        </h2>
+        <div class="uk-grid">
+          <div class="uk-width-1-2">
+            <ul uk-accordion>
+              <li>
+                <a
+                  class="uk-accordion-title uk-background-muted uk-border-pill uk-padding-small"
+                  href="#"
+                  >Vital Tracking Functionality</a
+                >
+                <div class="uk-accordion-content">
+                  <p>
+                    The tracking module provides a real-time view of a vehicle
+                    or asset’s position – whether it’s stationary or on the move
+                    – and which driver is behind the wheel. It also shows
+                    information relating to speed, driving direction, ignition
+                    status, driving violations, past trips and more.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <a
+                  class="uk-accordion-title uk-background-muted uk-border-pill uk-padding-small"
+                  href="#"
+                  >Live information Streams</a
+                >
+                <div class="uk-accordion-content">
+                  <p>
+                    Proactive monitoring is possible thanks to live streams of
+                    information. These streams are user-defined and contain
+                    information about events as well as messages to and from the
+                    connected asset and/or driver. For priority trips, a stream
+                    can be undocked and kept open while navigating the rest of
+                    the application.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-width-1-2">
+            <ul uk-accordion>
+              <li>
+                <a
+                  class="uk-accordion-title uk-background-muted uk-border-pill uk-padding-small"
+                  href="#"
+                  >Powerfull reporting suite</a
+                >
+                <div class="uk-accordion-content">
+                  <p>
+                    The solution’s robust reporting capability enables data to
+                    be reviewed and analysed in detail as well as in dynamic and
+                    customisable formats. Reports include movement, location,
+                    and trip and utilisation reports, as well as driver scoring,
+                    fuel, event violations and cost analysis reports.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <a
+                  class="uk-accordion-title uk-background-muted uk-border-pill uk-padding-small"
+                  href="#"
+                  >Flexible to your needs</a
+                >
+                <div class="uk-accordion-content">
+                  <p>
+                    MiX Fleet Manager is compatible with a flexible range of
+                    services, add-ons and accessories. Depending on specific
+                    operational goals or regional requirements, customers can
+                    choose from video recording systems, in-cab navigation and
+                    messaging devices, driver engagement tools, an Hours of
+                    Service solution, journey management and satellite
+                    communication among others.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Electronic logging device -->
+
+    <div class="uk-container">
+      <div
+        class="uk-grid uk-child-width-expand@s uk-flex uk-flex-middle uk-flex-left"
+      >
+        <div class="uk-width-1-2">
+          <div class="uk-cover-container">
+            <img src="images/log-device.jpeg" alt="" class="uk-width-1-1" />
+          </div>
+        </div>
+        <div class="uk-width-1-2">
+          <h2 class="uk-text-center uk-text-uppercase">
+            Electronic logging device (ELD)
+          </h2>
+          <p class="uk-text-large">
+            Mix Telematics's ELD (Electronic logging device) has been
+            specifically designed to manage and naintain your fleet's compliance
+            with the Hours of Service (HOS) rule through electronically tracking
+            drivers's Record of Duty Status (RODS) as an effective replacement
+            for outdated paper logbooks.
+          </p>
+          <button
+            class="uk-button uk-button-primary uk-button-small uk-border-rounded"
+          >
+            Contact Us
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mix Vision AI -->
+
+    <div class="uk-container">
+      <div class="uk-grid uk-child-width-expand@s">
+        <div class="uk-width-3-5 uk-background-primary uk-section-small">
+          <h2 class="uk-text-uppercase">Mix Vision AI</h2>
+          <h3 class="uk-text-large uk-margin-small-bottom">
+            Get more ROI when you combine Video Telematics with Mix Fleet
+            Manager
+          </h3>
+          <p class="uk-text-large">
+            Our AI-powered dashcam system provides drivers and fleet managers
+            with real-time and audible alerts for risky driving with road,
+            in-cab and driver cameras for a full-view to maximise safety and
+            eliminate driver fatigue.
+          </p>
+          <ul uk-accordion>
+            <li>
+              <a
+                class="uk-accordion-title uk-text-large uk-text-primary"
+                href="#"
+                >What are the benefits of Mix Vision AI:</a
+              >
+              <div class="uk-accordion-content">
+                <ul>
+                  Key Benefits:
+                  <li>
+                    Detect on-road events including collision warning, lane
+                    departure and following distance.
+                  </li>
+                  <li>
+                    Driver-facing cameras detect AI events like smoking,
+                    fatigue, phone ue, deatbelt use and distraction.
+                  </li>
+                  <li>
+                    In-cab events that are detected include real-time visual and
+                    audio footageof the cab’s interior.
+                  </li>
+                </ul>
+                <ul>
+                  Cost Benefits:
+                  <li>AI dashcams + vehicle telematics = 10:1 ROI</li>
+                  <li>AI dashcams + vehicle telematics = 10:1 ROI</li>
+                  <li>20% reduction in maintenance costs</li>
+                  <li>60% reduction in collisions</li>
+                  <li>5% reduction in insurance costs</li>
+                  <li>25% improvement in productivity</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <button
+            class="uk-button uk-button-primary uk-button-small uk-border-rounded"
+          >
+            Find out more
+          </button>
+        </div>
+        <div class="uk-width-2-5 uk-background-muted uk-border-pill">
+          <div
+            class="uk-position-relative uk-visible-toggle uk-light"
+            tabindex="-1"
+            uk-slider
+          >
+            <ul class="uk-slider-items uk-child-width-1-1">
+              <li>
+                <img src="images/camera.png" alt="" />
+              </li>
+              <li>
+                <img src="images/camera.png" alt="Image 2" />
+              </li>
+              <li>
+                <img src="images/camera.png" alt="Image 3" />
+              </li>
+            </ul>
+
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mix Journey Management -->
+
+    <div class="uk-container">
+      <div
+        class="uk-grid uk-child-width-expand@s uk-flex uk-flex-middle uk-flex-left"
+      >
+        <div class="uk-width-1-2">
+          <div class="uk-cover-container">
+            <img src="images/mix-journey.jpeg" alt="" class="uk-width-1-1" />
+          </div>
+        </div>
+        <div class="uk-width-1-2">
+          <h2 class="uk-text-uppercase">Mix Journey Management</h2>
+          <p class="uk-text-large">
+            An alternative to paper-based systems, this wholly online fleet
+            management solution incorporates journey requests, journey approvals
+            and journey monitoring. MIX Journey Management is the first system
+            to fully integrate with a premium fleet manager system.
+          </p>
+          <button
+            class="uk-button uk-button-primary uk-button-small uk-border-rounded"
+          >
+            Ask us how
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mix ROVI II™ -->
+
+    <div class="uk-container">
+      <div class="uk-grid uk-child-width-expand@s">
+        <div class="uk-width-3-5 uk-background-primary uk-section-small">
+          <h2 class="uk-text-uppercase">Mix ROVI II™</h2>
+          <p class="uk-text-large">
+            MiX Rovi II is a tough, Android-powered, 7” programmable in-cab
+            display that provides information to the driver or fleet manager
+            through custom data inputs, on-board navigation, jobs and messaging,
+            and real-time job dispatching, and driving alerts.
+          </p>
+          <button
+            class="uk-button uk-button-primary uk-button-small uk-border-rounded"
+          >
+            Learn more
+          </button>
+        </div>
+        <div class="uk-width-2-5 uk-background-muted uk-border-pill">
+          <div class="uk-cover-container">
+            <img src="images/mix-rovi.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MYMIX™ -->
+
+    <div class="uk-container">
+      <div
+        class="uk-grid uk-child-width-expand@s uk-flex uk-flex-middle uk-flex-left"
+      >
+        <div class="uk-width-1-2">
+          <div class="uk-cover-container">
+            <img src="images/mix-journey.jpeg" alt="" class="uk-width-1-1" />
+          </div>
+        </div>
+        <div class="uk-width-1-2">
+          <h2 class="uk-text-uppercase">MYMIX™</h2>
+          <p class="uk-text-large">
+            MyMiX is a comprehensive driver engagement app that helps drivers
+            assess and improve their driving performance. It equips drivers with
+            tools such as a performance dashboard, scoring and ranking models,
+            event viewing and driver activity reporting to create a safer, more
+            economical driving culture.
+          </p>
+          <button
+            class="uk-button uk-button-primary uk-button-small uk-border-rounded"
+          >
+            Get in touch
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
